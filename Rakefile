@@ -21,8 +21,7 @@ Jeweler::Tasks.new do |gem|
   gem.authors = ["Dave M"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
-    gem.add_runtime_dependency 'rgl', '~> 0.4'
-  #  gem.add_development_dependency 'rspec', '> 1.2.3'
+    gem.add_runtime_dependency 'forforf-rgl', '~> 1.0.0'
 end
 Jeweler::RubygemsDotOrgTasks.new
 

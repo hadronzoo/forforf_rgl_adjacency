@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/hadronzoo/rgl.git
+  revision: 949570e7f7f99acbfaec7eefb212ce87a3ce3def
+  specs:
+    forforf-rgl (1.0.0)
+      stream (>= 0.5)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -9,9 +16,6 @@ GEM
       rake
     rake (0.8.7)
     rcov (0.9.9)
-    rgl (0.4.0)
-      rake
-      stream (>= 0.5)
     rspec (2.3.0)
       rspec-core (~> 2.3.0)
       rspec-expectations (~> 2.3.0)
@@ -27,7 +31,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.0.0)
+  forforf-rgl (~> 1.0.0)!
   jeweler (~> 1.5.2)
   rcov
-  rgl (~> 0.4)
   rspec (~> 2.3.0)
